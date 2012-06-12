@@ -1,0 +1,375 @@
+@font-face {
+    font-family: 'MiloBlack';
+    src: url('MiloOT-Black.eot');
+    src: url('MiloOT-Black.eot?#iefix') format('embedded-opentype'),
+         url('MiloOT-Black.woff') format('woff'),
+         url('MiloOT-Black.ttf') format('truetype'),
+         url('MiloOT-Black.svg#MiloBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MiloBold';
+    src: url('MiloOT-Bold.eot');
+    src: url('MiloOT-Bold.eot?#iefix') format('embedded-opentype'),
+         url('MiloOT-Bold.woff') format('woff'),
+         url('MiloOT-Bold.ttf') format('truetype'),
+         url('MiloOT-Bold.svg#MiloBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MiloMedium';
+    src: url('MiloOT-Medi.eot');
+    src: url('MiloOT-Medi.eot?#iefix') format('embedded-opentype'),
+         url('MiloOT-Medi.woff') format('woff'),
+         url('MiloOT-Medi.ttf') format('truetype'),
+         url('MiloOT-Medi.svg#MiloMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain) */
+
+
+a{text-decoration: none;}
+
+.center{width: 960px;margin: 0 auto}
+.left{float: left}
+.right{float: right}
+.clear{clear: both}
+
+body{
+  font-family: Helvetica, sans-serif; 
+  background: white;
+}
+
+#header{
+  width: 100%;	
+  height: 500px;
+  margin-top: 0px;
+  background: url(../images/bg.jpg);
+}
+
+#header h1{
+	width: 520px;
+	font: 50px/50px 'MiloBold', 'Arial Unicode MS';
+	font-weight: bold;
+	line-height: 50px;
+	color: #28313e;
+	text-transform: uppercase;
+}
+
+#header p {
+	width: 500px;
+	font-size: 18px;
+	line-height: 25px;
+	margin-top: 20px;
+	color: #28313e;
+}
+
+#header p a{
+	border-bottom: 1px dotted #ccc;
+	color: #666;
+}
+
+
+.logo{
+  background: url(../images/logo.png) no-repeat ;
+  width: 130px;
+  height: 80px;
+  float: left;
+  text-indent: -9999px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+#rocket{
+	width: 375px;
+	height: 375px;
+	background: url(../images/rocket.png) no-repeat right;
+	margin-top: 80px;
+	margin-right: 50px;
+}
+
+.separa{
+	background: transparent url(../images/separa.png) repeat-x;
+	height: 11px;
+}
+
+.separa-transp{
+	background: url(../images/separa.png) repeat-x;
+	height: 11px;
+}
+
+#call-action a{
+	float: left;
+	padding: 20px 35px;
+	margin: 20px 20px 0 0;
+	color: white;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #D14836;
+	background-image: -webkit-linear-gradient(top,#DD4B39,#D14836);
+	background-image: -moz-linear-gradient(top,#DD4B39,#D14836);
+	background-image: -ms-linear-gradient(top,#DD4B39,#D14836);
+	background-image: -o-linear-gradient(top,#DD4B39,#D14836);
+	background-image: linear-gradient(top,#DD4B39,#D14836);
+	border: 1px solid #DD4B39;
+}
+
+#call-action a:hover{
+	color: white;
+	background-color: #c53727;
+	background-image: -webkit-linear-gradient(top,#DD4B39,#c53727);
+	background-image: -moz-linear-gradient(top,#DD4B39,#c53727);
+	background-image: -ms-linear-gradient(top,#DD4B39,#c53727);
+	background-image: -o-linear-gradient(top,#DD4B39,#c53727);
+	background-image: linear-gradient(top,#DD4B39,#c53727);
+	border: 1px solid #b0281A;
+}
+
+.cto{
+	width: 960px;
+	background: #f5f5;
+	height: 50px;
+	display: block;
+}
+
+.cto a{
+	float: left;
+	padding: 20px 35px;
+	margin: 20px 20px 0 0;
+	color: white;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #D14836;
+	background-image: -webkit-linear-gradient(top,#DD4B39,#D14836);
+	background-image: -moz-linear-gradient(top,#DD4B39,#D14836);
+	background-image: -ms-linear-gradient(top,#DD4B39,#D14836);
+	background-image: -o-linear-gradient(top,#DD4B39,#D14836);
+	background-image: linear-gradient(top,#DD4B39,#D14836);
+	border: 1px solid #DD4B39;
+}
+
+.cto a:hover{
+	color: white;
+	background-color: #c53727;
+	background-image: -webkit-linear-gradient(top,#DD4B39,#c53727);
+	background-image: -moz-linear-gradient(top,#DD4B39,#c53727);
+	background-image: -ms-linear-gradient(top,#DD4B39,#c53727);
+	background-image: -o-linear-gradient(top,#DD4B39,#c53727);
+	background-image: linear-gradient(top,#DD4B39,#c53727);
+	border: 1px solid #b0281A;
+}
+
+.produtos{
+	width: 100%;
+	height: 300px;
+	background: url(../images/argyle.png);	
+}
+
+#content{
+	margin-top: 0px;
+	background: url(../images/project_papper.png);
+}
+
+#boxes{
+	width: 960px;
+	padding-top: 50px;
+}
+
+.box:first-child{
+	float: right;
+}
+
+.box{
+	width: 350px;
+	padding: 50px 0 0 110px;
+	height: 180px;
+	float: left;
+}
+
+.box h2{
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: 1px dotted #fff;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.box p{
+	color: #fff;
+	padding-top: 10px;
+}
+
+#ico-mvp{
+	height: 150px;
+	background: url(../images/ico-mvp.png) no-repeat left;
+}
+
+#ico-page{
+	height: 150px;
+	background: url(../images/ico-page.png) no-repeat left;
+}
+
+#criamos{
+	height: auto;
+	padding-top: 10px;
+}
+
+#criamos h2, .sobre h2{
+	font: 18px 'MiloMedium', 'Arial Unicode MS';
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 50px;
+	color: #28313e;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 10px 0 10px 0;
+	text-transform: uppercase;
+}
+
+.projetos{
+	width: 960px;
+}
+
+.projetos .item:first-child { float: left;}
+
+.item{
+	width: 420px;
+	padding: 18px;
+	margin-top: 10px;
+	height: auto;
+	float: right;
+	border: 1px solid #D9D9D9;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 40px;
+	background: white;
+}
+
+.item img{
+	width: 420px;
+	height: 300px;
+} 
+
+.item h3{
+	text-align: center;
+	color: #28313e;
+	font: 25px 'MiloMedium', 'Arial Unicode MS';
+	padding: 10px 0;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #f2f2f2;
+	text-transform: uppercase;
+}
+
+.item-novo {
+	position: absolute;
+	width: 155px;
+	height: 96px;
+	background: url(../images/item-novo.png);
+	top: -14px;
+	left: -7px;
+	z-index: 2;
+}
+
+#fale{
+	height: 500px;
+	background: white url(../images/airmail_border.png) repeat-x top;
+	margin-top: 40px;
+}
+
+#wufoo-m7p5m7{
+	float: left;
+	width: 500px;
+	padding-top: 50px;
+}
+#mais{
+	float: right;
+	width: 360px;
+	margin-top: 60px; 
+}
+
+#mais p{
+	font: 14px 'MiloMedium', 'Arial Unicode MS';
+	color: #666;
+	text-align: center;
+}
+
+#mais h3{
+	font: 18px 'MiloMedium', 'Arial Unicode MS';
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px dotted #ccc;
+	margin: 50px 0 20px 0;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+#mais small{
+	font-size: 18px;
+	display: block;
+	margin-top: 20px;
+}
+
+ul li.abradi a{
+	float: left;
+	width: 180px;
+	height: 60px;
+	background: url(../images/abradi.png) no-repeat;
+	text-indent: -9999px;
+}
+
+ul li.gith a{
+	float: right;
+	width: 180px;
+	height: 60px;
+	background: url(../images/gith.png) no-repeat;
+	text-indent: -9999px;
+}
+/* SCROLL Top */
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	overflow:hidden;
+	width:51px;
+	height:51px;
+	border:none;
+	text-indent:-999px;
+	background:url(../images/ui.totop.png) no-repeat left top;
+}
+
+#toTopHover {
+	background:url(../images/ui.totop.png) no-repeat left -51px;
+	width:51px;
+	height:51px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}

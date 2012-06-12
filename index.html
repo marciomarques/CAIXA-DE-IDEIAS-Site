@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>CAIXA DE IDEIAS Software para negócios web. MVP, Custom Software, Landing Pages</title>
+		<link rel="stylesheet" media="screen,projection" href="css/estilo.css">
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.ui.totop.min.js"></script>
+	<!-- start Mixpanel --><script type="text/javascript">(function(d,c){var a,b,g,e;a=d.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===d.location.protocol?"https:":"http:")+'//api.mixpanel.com/site_media/js/api/mixpanel.2.js';b=d.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b);c._i=[];c.init=function(a,d,f){var b=c;"undefined"!==typeof f?b=c[f]=[]:f="mixpanel";g="disable track track_pageview track_links track_forms register register_once unregister identify name_tag set_config".split(" ");
+for(e=0;e<g.length;e++)(function(a){b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,0)))}})(g[e]);c._i.push([a,d,f])};window.mixpanel=c})(document,[]);
+mixpanel.init("82c1f25cbc75f8bb2f8fe9ac115f692f");</script><!-- end Mixpanel -->
+	
+	<script type="text/javascript">
+      function scroll(scrol){
+        if(scrol.length > 0 && $("#"+scrol[scrol.length-1]).length > 0){
+          var elementClicked = scrol[scrol.length-1];
+          var destination = $("#"+elementClicked).offset().top-119;
+          $("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination-20}, 500 );
+          return false;
+        }
+      }
+		  $(document).ready(function(){
+        if(window.location && window.location.hash && window.location.hash.length > 0){
+          scroll(window.location.hash.split("#"));
+        }
+        $('.scroll').click(function() {
+           scrol = $(this).attr("href").split("#");
+           scroll(scrol);
+        });
+        $().UItoTop();
+		  });
+		</script>
+	</head>
+	<body>
+		<div id="fb-root"></div>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=373006476084394";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		</script>	
+
+<header id="header">
+			<div class="center">
+					<div class="logo">
+						<a href="#">CAIXA DE IDEIAS Software para negócios web.</a>
+					</div>	
+					<div id="rocket" class="right"></div>
+					<div class="left">			
+						<h1>Software para Negócios web.</h1>
+						<p>Desenvolvimento de <a href="http://astartupenxuta.com.br/" target="_blank">software enxuto</a> para startups usando Rails e métodos ágeis, ajudamos você a criar produtos realmente inovadores em menos tempo. Atendemos empreendedores e startups no Brasil e Europa.</p>
+						<div id="call-action">
+							<a href="#fale" class="scroll">Fale com a gente</a>
+						</div>
+					</div>
+					<div class="clear"></div>
+			</div>	
+	
+		</header>		
+		<div id="content">
+			<section class="produtos">
+			    <div id="boxes" class="center">
+			    	<div id="ico-page" class="box">
+						<h2>Landing Pages efetivas</h2>
+						<p>Gere mais Leads e Clientes no seu site com uma boa estratégia de conversão para sua Landing Page.</p>
+					</div>
+					
+					<div id="ico-mvp" class="box">
+						<h2>Mínimo Produto Viável (MVP)</h2>
+						<p>Abordamos cada projeto estrategicamente para determinar a melhor forma de criar um produto totalmente funcional mínimo viável.</p>
+					</div>
+				</div>
+			</section>
+			<div id="criamos" class="center">
+				<h2>Nossos trabalhos</h2>
+				<div class="projetos">
+				
+					<div class="item">
+						<h3>Comprador Feliz</h3>
+						<a href="http://compradorfeliz.com.br" target="_blank"><img src="images/projetos/compradores.jpg" alt="Comprador Feliz"/></a>
+					</div>
+					
+					<div class="item">
+						<h3>Cinese</h3>
+						<div class="item-novo"></div>
+						<img src="images/projetos/cinese.jpg" alt="Cinese"/>
+					</div>							
+				</div>
+				
+				<div class="projetos">
+				
+					<div class="item">
+						<h3>Hotelhome</h3>
+						<div class="item-novo"></div>
+						<img src="images/projetos/hotelhome.jpg" alt="Hotelhome"/>
+					</div>
+					
+					<div class="item">
+						<h3>Blend Coworking</h3>
+						<a href="http://blend.vc" target="_blank"><img src="images/projetos/blend.png" alt="Blend Coworking"/></a>
+					</div>
+											
+				</div>
+				
+				<div class="projetos">
+				
+					<div class="item">
+						<h3>Malaio.me SaaS</h3>
+						<a href="http://demo.malaio.me/admin/" target="_blank"><img src="images/projetos/malaio-demo.png" alt="Malaio.me SaaS"/></a>
+					</div>
+					
+					<div class="item">
+						<h3>Malaio.me Landing Page</h3>
+						<a href="http://malaio.me" target="_blank"><img src="images/projetos/malaio-page.png" alt="Malaio.me Landing Page"/></a>
+					</div>	
+					<div class="clear"></div>
+											
+				</div>
+				
+				<div class="projetos">
+				
+					<div class="item">
+						<h3>Presentear</h3>
+						<a href="http://presentear.me" target="_blank"><img src="images/projetos/presentear.png" alt="Presentear"/></a>
+					</div>
+					
+					<div class="item">
+						<h3>S-mark Landing Page</h3>
+						<a href="http://malaio.me" target="_blank"><img src="images/projetos/smark.png" alt="S-mark Landing Page"/></a>
+					</div>	
+					<div class="clear"></div>
+											
+				</div>
+
+				
+				<div class="projetos">
+				
+					<div class="item">
+						<h3>Derose Belavista</h3>
+						<a href="http://www.derosebelavista.com.br/" target="_blank"><img src="images/projetos/yoga.png" alt="Derose Belavista"/></a>
+					</div>
+					
+					<div class="item">
+						<h3>StartupSul</h3>
+						<a href="http://startupsul.com.br" target="_blank"><img src="images/projetos/startupsul.png" alt="StartupSul"/></a>
+					</div>	
+												
+				</div>
+				<div class="fb-like-box" data-href="http://www.facebook.com/pages/CAIXA-DE-IDEIAS/89888524723" data-width="960" data-show-faces="true" data-stream="false" data-header="false"></div>
+				<div class="clear"></div>
+			</div>
+			
+			<div id="fale">
+				<div class="center">
+					<div id="wufoo-m7p5m7">
+						<a href="http://caixadeideias.wufoo.com/forms/m7p5m7">fale com a gente</a>.
+					</div>
+						<script type="text/javascript">var m7p5m7;(function(d, t) {
+							var s = d.createElement(t), options = {
+							'userName':'caixadeideias', 
+							'formHash':'m7p5m7', 
+							'autoResize':true,
+							'height':'380',
+							'async':true,
+							'header':'show', 
+							'ssl':true};
+							s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+							s.onload = s.onreadystatechange = function() {
+							var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+							try { m7p5m7 = new WufooForm();m7p5m7.initialize(options);m7p5m7.display(); } catch (e) {}};
+							var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+							})(document, 'script');
+						</script>
+						
+						<div id="mais">
+							<ul>
+								<li class="abradi">
+									<a href="http://abradirs.com.br/agencias/show/id/17" target="_blank">#</a>
+								</li>
+								<li class="gith">
+									<a href="https://github.com/caixadeideias" target="_blank">#</a>
+								</li>
+							</ul>
+							<div class="clear"></div>
+							<h3>Depoimentos</h3>
+							<p>"A CAIXA DE IDEIAS sempre nos atendeu de forma personalizada, com muita agilidade e competência, sempre pudemos contar com a atenção de sua equipe, Bastou um trabalho contratado para a formação de uma parceria no ramo de TI" <small>Mauricio Filippon</small> </p>
+						</div>
+				    </div>	   
+			</div>
+		</div>	
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-8905568-1']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+	</body>
+</html>
