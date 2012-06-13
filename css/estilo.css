@@ -99,16 +99,6 @@ body{
 	margin-right: 50px;
 }
 
-.separa{
-	background: transparent url(../images/separa.png) repeat-x;
-	height: 11px;
-}
-
-.separa-transp{
-	background: url(../images/separa.png) repeat-x;
-	height: 11px;
-}
-
 #call-action a{
 	float: left;
 	padding: 20px 35px;
@@ -126,8 +116,7 @@ body{
 	border: 1px solid #DD4B39;
 }
 
-#call-action a:hover{
-	color: white;
+#call-action a:hover{	
 	background-color: #c53727;
 	background-image: -webkit-linear-gradient(top,#DD4B39,#c53727);
 	background-image: -moz-linear-gradient(top,#DD4B39,#c53727);
@@ -137,39 +126,35 @@ body{
 	border: 1px solid #b0281A;
 }
 
-.cto{
-	width: 960px;
-	background: #f5f5;
-	height: 50px;
-	display: block;
-}
 
-.cto a{
+#btn-sobre-nos {
 	float: left;
 	padding: 20px 35px;
 	margin: 20px 20px 0 0;
-	color: white;
+	color: #666;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	background-color: #D14836;
-	background-image: -webkit-linear-gradient(top,#DD4B39,#D14836);
-	background-image: -moz-linear-gradient(top,#DD4B39,#D14836);
-	background-image: -ms-linear-gradient(top,#DD4B39,#D14836);
-	background-image: -o-linear-gradient(top,#DD4B39,#D14836);
-	background-image: linear-gradient(top,#DD4B39,#D14836);
-	border: 1px solid #DD4B39;
+	border: 1px solid #D8D8D8 !important;
+	background: #F2F2F2;
+	background: -webkit-linear-gradient(top, #F5F5F5, #F1F1F1);
+	background: -moz-linear-gradient(top, #F5F5F5, #F1F1F1);
+	background: -ms-linear-gradient(top, #F5F5F5, #F1F1F1);
+	background: -o-linear-gradient(top, #F5F5F5, #F1F1F1);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-transition: border .20s;
+	-moz-transition: border .20s;
+	-o-transition: border .20s;
+	transition: border .20s;
 }
-
-.cto a:hover{
-	color: white;
-	background-color: #c53727;
-	background-image: -webkit-linear-gradient(top,#DD4B39,#c53727);
-	background-image: -moz-linear-gradient(top,#DD4B39,#c53727);
-	background-image: -ms-linear-gradient(top,#DD4B39,#c53727);
-	background-image: -o-linear-gradient(top,#DD4B39,#c53727);
-	background-image: linear-gradient(top,#DD4B39,#c53727);
-	border: 1px solid #b0281A;
+#btn-sobre-nos:hover {
+	border: 1px solid #C6C6C6 !important;
+	background: #F3F3F3;
+	background: -webkit-linear-gradient(top, #F8F8F8, #F1F1F1);
+	background: -moz-linear-gradient(top, #F8F8F8, #F1F1F1);
+	background: -ms-linear-gradient(top, #F8F8F8, #F1F1F1);
+	background: -o-linear-gradient(top, #F8F8F8, #F1F1F1);
 }
 
 .produtos{
